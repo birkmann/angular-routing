@@ -1,0 +1,34 @@
+{
+    "0": {
+        "title": "Ant-Man",
+        "poster": "http://ia.media-imdb.com/images/M/MV5BMTc3NzgxNTM0N15BMl5BanBnXkFtZTgwNTMwMDI5MzE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+        "date": "2015",
+        "description": "Armed with a super-suit with the astonishing ability to shrink in scale but increase in strength, con-man Scott Lang must embrace his inner hero and help his mentor, Dr. Hank Pym, plan and pull off a heist that will save the world.",
+        "url": "http://www.imdb.com/title/tt0478970/",
+        "director": "Peyton Reed"
+    },
+    "1": {
+        "title": "Into the Woods",
+        "poster": "http://ia.media-imdb.com/images/M/MV5BMTY4MzQ4OTY3NF5BMl5BanBnXkFtZTgwNjM5MDI3MjE@._V1_SX214_AL_.jpg",
+        "date": "2015",
+        "description": "A witch tasks a childless baker and his wife with procuring magical items from classic fairy tales to reverse the curse put on their family tree.",
+        "url": "http://www.imdb.com/title/tt2180411/",
+        "director": "Rob Marshall"
+    },
+    "2": {
+        "title": "Der Hobbit: Die Schlacht der fünf Heere",
+        "poster": "http://ia.media-imdb.com/images/M/MV5BODAzMDgxMDc1MF5BMl5BanBnXkFtZTgwMTI0OTAzMjE@._V1_SX214_AL_.jpg",
+        "date": "2014",
+        "description": "Bilbo and Company are forced to engage in a war against an array of combatants and keep the Lonely Mountain from falling into the hands of a rising darkness.",
+        "url": "http://www.imdb.com/title/tt2310332/",
+        "director": "Peter Jackson"
+    },
+    "3": {
+        "title": "Der Scharfschütze",
+        "poster": "http://ia.media-imdb.com/images/M/MV5BMTkxNzI3ODI4Nl5BMl5BanBnXkFtZTgwMjkwMjY4MjE@._V1_SX214_AL_.jpg",
+        "date": "2015",
+        "description": "Navy SEAL sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home to his wife and kids after four tours of duty, however, Chris finds that it is the war he can't leave behind.",
+        "url": "http://www.imdb.com/title/tt2179136/",
+        "director": "Clint Eastwood"
+    }
+}
