@@ -11,14 +11,132 @@ $susy: (
 );
 
 body {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	background: url("../img/wallpaper.jpg") no-repeat center center fixed;
+	font-family: 'Roboto', sans-serif;
+	background-size: cover;
 	overflow-y: scroll;
-	font-family: sans-serif;
 	line-height: 1.6em;
 	color: $text-color-dark;
 	margin: 0;
 }
 
 .page-wrapper {
-	max-width: 960px;
+	position: relative;
+	z-index: 1;
+	max-width: 1460px;
 	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.bg-color {
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.header-main {
+	@include clearfix;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin: 0 0 80px;
+	padding: 20px;
+	.left {
+		@include breakpoint(tablet) {
+			float: left;
+		}
+		.logo {
+			color: #fff;
+			font-size: 32px;
+			text-decoration: none;
+			span {
+				color: green;
+			}
+		}
+	}
+	.right {
+		@include breakpoint(tablet) {
+			float: right;
+		}
+		.time {
+			color: #fff;
+			font-size: 32px;
+			span {
+				color: green;
+			}
+		}
+	}
+}
+
+.nav-main {
+	margin: 50px 0 50px 0;
+	ul {
+		@include clearfix;
+		margin: 0;
+		padding: 0;
+		li {
+			list-style: none;
+			a {
+				display: block;
+				font-size: 32px;
+				text-decoration: none;
+				color: #555;
+				&:hover {
+					color: #fff;
+				}
+			}
+			&.active {
+				a {
+					color: green;
+					&:hover {
+						color: #fff;
+					}
+				}
+			}
+			@include breakpoint(tablet) {
+				float: left;
+				padding: 0 50px 0 5px;
+			}
+		}
+	}
+}
+
+.list {
+	.item {
+		opacity: 0.8;
+		display: block;
+		float: left;
+		margin: 10px;
+		&:hover {
+			opacity: 1;
+		}
+		img {
+			display: block;
+		}
+	}
+}
+
+.view {
+	color: #fff;
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+	img {
+		@include breakpoint(tablet) {
+			float: left;
+			margin: 0 20px 0 0;
+		}
+	}
+	.description {
+		max-width: 800px;
+		font-size: 20px;
+		line-height: 1.7em;
+		margin: 0;
+	} 
 }
