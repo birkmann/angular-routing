@@ -6,7 +6,7 @@ angular.module('myApp',[])
 		.otherwise({redirectTo:'/'})
 })
 .controller('directoryController',['$scope','$http',function($scope,$http){
-	$http.get('/data/data.json').success(function(data){
+	$http.get('./data/data.json').success(function(data){
 		$scope.movies=data
 	})
 }])
